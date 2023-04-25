@@ -5,12 +5,12 @@
     <string name="chinese_checkbox_text">Chinese</string>
     <string name="english_checkbox_text">English</string>
     <string name="checkbox_confirm">Checkbox Confirm Button</string>
-    <string name="checkbox_dialog_text_template">is selected!</string>
+    <string name="checkbox_dialog_text_template">You selected: </string>
 
     <string name="male_radio_text">Male</string>
     <string name="female_radio_text">Female</string>
     <string name="radio_confirm">Radio Confirm Button</string>
-    <string name="radio_dialog_text_template">is selected!</string>
+    <string name="radio_dialog_text_template">You selected: </string>
 
     <string name="dialog_close">Close Dialog</string>
     <string-array name="language_list">
