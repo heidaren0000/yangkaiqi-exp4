@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/button_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/android_application" />
+
+    <CheckBox
+        android:id="@+id/checkbox_chinese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chinese_checkbox_text" />
+
+    <CheckBox
+        android:id="@+id/checkbox_english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/english_checkbox_text" />
+
+    <Button
+        android:id="@+id/button_checkbox_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_confirm" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/male_radio_text" />
+
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/female_radio_text" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_radio_confrim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_confirm" />
+</LinearLayout>

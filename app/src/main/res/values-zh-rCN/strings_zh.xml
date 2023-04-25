@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UI 实验3</string>
+    <string name="picture_dialog_text">您点击了图片按钮！</string>
+
+    <string name="chinese_checkbox_text">中文</string>
+    <string name="english_checkbox_text">英语</string>
+    <string name="checkbox_confirm">复选按钮确定</string>
+    <string name="checkbox_dialog_text_template">被选中了！</string>
+
+    <string name="male_radio_text">男</string>
+    <string name="female_radio_text">女</string>
+    <string name="radio_confirm">单选按钮确定</string>
+    <string name="radio_dialog_text_template">被选中了！</string>
+
+    <string name="dialog_close">关闭对话框</string>
+    <string-array name="language_list">
+        <item>中文</item>
+        <item>英语</item>
+        <item>日语</item>
+        <item>俄语</item>
+        <item>Java(bushi</item>
+    </string-array>
+</resources>
